@@ -16,7 +16,7 @@ h1 {
 }
 body {
     margin: 0px;
-    background-color: rgb(201, 195, 195);
+    background-color: black;
     opacity: 90%;
     font-family: 'Oswald', sans-serif;
 }
@@ -33,7 +33,7 @@ nav ul{
 nav ul li{
     font-family: 'Oswald', sans-serif;
     display: inline-block;
-    background-color: white;
+    background-color: black;
     padding: 8px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -44,5 +44,15 @@ nav ul li{
 }
 nav ul li a{
     font-size: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: black;
+    color: white !important;
+}
+#logo {
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 60px;
+    width: 60px;
+    opacity: 80%;
+    float: left;
 }
