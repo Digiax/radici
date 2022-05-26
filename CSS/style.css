@@ -97,7 +97,7 @@ nav.navbar.sticky-top.navbar-expand-lg.navbar-light.bg-light {
     background-color: white !important;
 }
 h3 {
-    color: rgba(255, 255, 0, 0.76) !important;
+    color: rgb(255, 255, 0) !important;
     font-family: 'Roboto Condensed', sans-serif !important;
     text-align: center;
     float: center !important;
@@ -113,4 +113,37 @@ h4 {
     font-size: 40px !important;
     margin: 0% !important;
     height: 10px !important;
+}
+h5 {
+    float: left;
+    color: yellow !important;
+}
+section {
+    position:absolute; top:200px;
+}
+.ff {
+    width: auto;
+    height: 400px;
+    margin-left: 0px;
+    margin-right: auto;
+}
+.album {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-left: 0px;
+    margin-right: auto;
+}
+div {
+    position: relative;
+    left: 0%;
+    display: inline-block;
+}
+#simpatia {
+    width: 100px;
+    height: 100px;
+    margin-left: 0px !important;
+    margin-right: auto;
+    top: 40px;
+    position: relative;
 }
