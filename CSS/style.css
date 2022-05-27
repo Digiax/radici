@@ -7,7 +7,7 @@
     height: 100%;
     width: 100%;
     margin-top: 50px;}
-h1 {
+#title {
     font-family: 'Oswald', sans-serif;
     text-align: center;
     float: center !important;
@@ -15,6 +15,9 @@ h1 {
     color: white !important;
     margin: 0% !important;
     height: 140px;
+}
+h1{
+    font-size: 120px !important;
 }
 body {
     font-family: 'Oswald', sans-serif !important;
@@ -108,7 +111,7 @@ h3 {
 h4 {
     color: rgb(255, 255, 255) !important;
     font-family: 'Roboto Condensed', sans-serif !important;
-    text-align: center;
+    text-align: center !important;
     float: center !important;
     font-size: 40px !important;
     margin: 0% !important;
@@ -118,32 +121,68 @@ h5 {
     float: left;
     color: yellow !important;
 }
-section {
-    position:absolute; top:200px;
-}
 .ff {
-    width: auto;
     height: 400px;
-    margin-left: 0px;
-    margin-right: auto;
-}
-.album {
-    display: inline-block;
-    height: 100px;
-    width: 100px;
-    margin-left: 0px;
-    margin-right: auto;
-}
-div {
+    margin-top: 10px;
+    float: left !important;
     position: relative;
-    left: 0%;
+    text-align: left;
+}
+.albums {
+    margin-left: 0px !important;
+    position: relative;
+    height: auto;
+    top: 30px;
     display: inline-block;
+    text-align: justify;
+    width: 100px;
+    color: yellow;
 }
 #simpatia {
-    width: 100px;
+    margin-right: 100%;
+    top: 10px;
     height: 100px;
-    margin-left: 0px !important;
-    margin-right: auto;
-    top: 40px;
-    position: relative;
+    width: 100px;
+    display: inline-block;
+    text-align: justify;
 }
+#album {
+    top: 10px;;
+    height: 100px;
+    width: 100px;
+    display: inline-block !important;
+    text-align: center !important;
+    color: yellow !important;
+}
+.bio {
+    position: absolute;
+    left: 0%;
+    display: inline;
+    top: 250px;
+}
+
+.artists {
+    color: rgb(255, 255, 0) !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    text-align: center !important;
+    font-size: 50px !important;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10px !important;
+}
+.artists a{
+    text-align: center;
+    color: rgb(255, 255, 0) !important;
+    top: 30px ;
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+}
+#albumsa {
+    display: inline-block;
+    width: 35%;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+  }
