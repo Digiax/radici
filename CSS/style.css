@@ -21,7 +21,7 @@ h1{
 }
 body {
     font-family: 'Oswald', sans-serif !important;
-    /*background-image: url("../Immagini/sfondi.jpg");*/
+    background-image: url(../Immagini/sfondo.jpg);
     background-color: black !important;
     background-size: 100%;
 }
@@ -99,7 +99,7 @@ nav a:hover {
 nav.navbar.sticky-top.navbar-expand-lg.navbar-light.bg-light {
     background-color: white !important;
 }
-h3 {
+h2 {
     color: rgb(255, 255, 0) !important;
     font-family: 'Roboto Condensed', sans-serif !important;
     text-align: center;
@@ -108,57 +108,57 @@ h3 {
     margin: 0% !important;
     height: 10px !important;
 }
-h4 {
-    color: rgb(255, 255, 255) !important;
-    font-family: 'Roboto Condensed', sans-serif !important;
-    text-align: center !important;
-    float: center !important;
-    font-size: 40px !important;
-    margin: 0% !important;
-    height: 10px !important;
-}
+
 h5 {
     float: left;
     color: yellow !important;
 }
-.ff {
+#ff {
     height: 400px;
     margin-top: 10px;
-    float: left !important;
-    position: relative;
     text-align: left;
+    margin-bottom:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:7px;
 }
 .albums {
     margin-left: 0px !important;
     position: relative;
     height: auto;
     top: 30px;
-    display: inline-block;
-    text-align: justify;
+    text-align: center;
     width: 100px;
     color: yellow;
+    display: inline;
+}
+.albums img {
+    display: inline-block;
+    width: 20%;
+    align-items: left;
+    position: absolute;
 }
 #simpatia {
     margin-right: 100%;
     top: 10px;
     height: 100px;
     width: 100px;
-    display: inline-block;
+    display: inline;
     text-align: justify;
 }
 #album {
     top: 10px;;
     height: 100px;
     width: 100px;
-    display: inline-block !important;
+    display: inline !important;
     text-align: center !important;
     color: yellow !important;
 }
 .bio {
-    position: absolute;
-    left: 0%;
     display: inline;
-    top: 250px;
+    background-color: #ffff00;
+    text-align: left;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .artists {
@@ -168,7 +168,6 @@ h5 {
     font-size: 50px !important;
     margin-left: auto;
     margin-right: auto;
-    height: 10px !important;
 }
 .artists a{
     text-align: center;
@@ -176,13 +175,46 @@ h5 {
     top: 30px ;
     font-size: 20px;
     position: relative;
-    display: inline-block;
+    display: inline;
 }
 #albumsa {
-    display: inline-block;
+    display: inline;
     width: 35%;
     padding: 5px;
     height: 100px;
     width: 100px;
     margin: 0 auto;
+    position: relative;
+    top: 10px;
+    box-align: "left";
   }
+
+.container {
+    margin-top: 20px
+    ;
+}
+.titolo{
+    margin-bottom:15px !important;
+    text-shadow: 2px 2px #000000;
+}
+
+.display-5{
+    font-size:32pt !important;
+    margin-top:36px !important;
+    margin-bottom:21px !important;
+}
+.nome{
+    margin-top:20px;
+}
+
+
+.controls-top{height:100px !important;}
+
+.storia{
+    font-family:'Oxygen', sans-serif;
+    font-size: 12pt;
+}
+
+.foto img{
+    text-align:right;
+}
