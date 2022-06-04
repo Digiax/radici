@@ -8,13 +8,16 @@
     width: 100%;
     margin-top: 50px;}
 .titolo {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Anton', sans-serif !important;
     text-align: center;
     float: center !important;
     font-size: 120px !important;
     color: #fbff00;
     margin: 0% !important;
     height: 140px;
+    margin-bottom:15px !important;
+    text-shadow: 5px 5px #000000;
+    text-shadow:0 0 1px transparent;
 }
 .titolino {
     font-family: 'Oswald', sans-serif;
@@ -28,7 +31,7 @@
     font-size: 30pt;
 }
 .titolo h1 {
-    font-family: 'Paytone One', sans-serif !important;
+    font-family: 'Alfa Slab One', cursive !important;
 }
 
 h1{
@@ -36,14 +39,17 @@ h1{
 }
 body {
     font-family: 'Oswald', sans-serif !important;
-    background-image: url(../Immagini/sfondo.jpg);
+    background-image: url(../Immagini/sfondoa.webp);
+    background-repeat: repeat;
     background-color: black !important;
     background-size: 100%;
+    height: 400px;
+    background-size: 400px;
 }
 nav{
     margin: 0px auto;
     width:100%;
-    background-color: rgb(255, 255, 255) !important;
+    background-color: black !important;
     padding: 0% !important;
 }
 nav ul{
@@ -51,12 +57,14 @@ nav ul{
     padding: 0px;
     margin: 1px;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    margin: 0px !important;
+    background-color: rgb(0, 0, 0);
+
 }
 nav ul li{
     font-family: 'Oswald', sans-serif !important;
     display: inline-block;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     padding: 8px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -64,11 +72,12 @@ nav ul li{
     border-bottom-right-radius: 8px;
     width: 33%;
     text-align: center;
+    border-bottom: white !important;
 }
 nav ul li a{
     font-size: 20px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0) !important;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255) !important;
     padding: 0%;
 }
 #logo {
@@ -87,8 +96,8 @@ nav ul li a{
     background-color: black;
 }
 nav a{
-    border-top: 4px solid rgb(255, 255, 255);
-    border-bottom: 4px solid rgb(255, 255, 255);
+    border-top: 4px solid rgb(0, 0, 0);
+    border-bottom: 4px solid rgb(0, 0, 0);
     padding: 6px 0; 
 }
 .dropdown-item {
@@ -115,12 +124,23 @@ nav a{
     color: #fbff00 !important;
     font-size: 50pt;
 }
+.carosello {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1250px;
+    width: 95%;
+    height: 95%;
+    max-height: 750px;
+}
+.bottone {
+    background-color: #fbff00 !important;
+}
 nav.navbar.sticky-top.navbar-expand-lg.navbar-light.bg-light {
-    background-color: white !important;
+    background-color: rgb(0, 0, 0) !important;
 }
 h2 {
     color: rgb(255, 255, 0) !important;
-    font-family: 'Roboto Condensed', sans-serif !important;
+    font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     float: center !important;
     font-size: 80px !important;
@@ -197,10 +217,6 @@ h5 {
     margin-top: 20px
     ;
 }
-.titolo{
-    margin-bottom:15px !important;
-    text-shadow: 2px 2px #000000;
-}
 
 .display-5{
     font-size:32pt !important;
@@ -233,9 +249,6 @@ nav.shift ul li a {
     position:relative;
     z-index: 1;
   }
-  nav.shift ul li a:hover {
-    color: #910f0f;
-  }
   nav.shift ul li a:after {
     display: block;
     position: absolute;
@@ -262,4 +275,63 @@ nav.shift ul li a {
 .active {
     border-bottom: 4px solid rgb(255, 251, 13);
 }
-  
+
+.community {
+    background-color: #fbff00;
+    text-align: center;
+    margin-top: 50px;
+    width: 100% !important;
+    border-radius: 10px;
+}
+.scheda {
+    text-align: left !important;
+    font-size: 15pt;
+    margin-top: 30px;
+    margin-right: 0cm !important;
+    float: right;
+    border-top-width: 50px !important;
+}
+.salame {
+    margin-top: 150px !important;
+}
+.song {
+    float: right;
+    position: inherit;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+.iframe {
+    width: 100%;
+    height: 200px;
+    border-top-width: 50px !important;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+.news {
+    margin-top: 150px;
+    background-color: white;
+    border-radius: 20px;
+}
+.fata {
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 0px;
+}
+.fatina {
+    padding: 0% !important;
+}
+.titolone {
+    font-size: 20pt;
+    font-style: bold;
+}
+.titoletto {
+    font-size: 10pt;
+    font-style: none;
+    font-family:'Oxygen', sans-serif;
+    color: #000000 !important;
+}
