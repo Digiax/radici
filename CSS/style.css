@@ -9,8 +9,7 @@
     margin-top: 50px;}
 .titolo {
     font-family: 'Anton', sans-serif !important;
-    text-align: center;
-    float: center !important;
+    text-align: center !important;
     font-size: 120px !important;
     color: #fbff00;
     margin: 0% !important;
@@ -32,6 +31,9 @@
 }
 .titolo h1 {
     font-family: 'Alfa Slab One', cursive !important;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1{
@@ -112,7 +114,7 @@ nav a{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 300px;
+    margin-top: 100px;
 }
 .mappa {
     height: auto;
@@ -121,8 +123,8 @@ nav a{
 }
 .clicca {
     text-align: center !important;
-    color: #fbff00 !important;
-    font-size: 50pt;
+    color: #ffffff !important;
+    font-size: 30pt;
 }
 .carosello {
     margin-left: auto;
@@ -132,6 +134,9 @@ nav a{
     height: 95%;
     max-height: 750px;
 }
+.carousel-inner {
+    margin-bottom: 0% !important;
+}
 .bottone {
     background-color: #fbff00 !important;
 }
@@ -140,7 +145,7 @@ nav.navbar.sticky-top.navbar-expand-lg.navbar-light.bg-light {
 }
 h2 {
     color: rgb(255, 255, 0) !important;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Oxygen', sans-serif;;
     text-align: center;
     float: center !important;
     font-size: 80px !important;
@@ -148,10 +153,6 @@ h2 {
     height: 10px !important;
 }
 
-h5 {
-    float: left;
-    color: yellow !important;
-}
 #ff {
     height: 400px;
     margin-top: 10px;
@@ -186,7 +187,7 @@ h5 {
 
 .artists {
     color: rgb(255, 255, 0) !important;
-    font-family: 'Roboto Condensed', sans-serif !important;
+    font-family: 'Oxygen', sans-serif;
     text-align: center !important;
     font-size: 50px !important;
     margin-left: auto;
@@ -227,7 +228,6 @@ h5 {
     margin-top:20px;
 }
 .storia{
-    font-family:'Oxygen', sans-serif;
     font-size: 12pt;
 }
 
@@ -309,12 +309,22 @@ nav.shift ul li a {
     border-left-width: 0px;
 }
 .news {
-    margin-top: 150px;
     background-color: white;
     border-radius: 20px;
+    margin-top: 150px;
+}
+.newses {
+    border-radius: 20px;
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px;
+    text-align: center;
+    margin: 10px;
 }
 .fata {
-    width: 300px;
+    width: 450px ;
     height: auto;
     float: left;
     margin-top: 10px;
@@ -324,14 +334,48 @@ nav.shift ul li a {
 }
 .fatina {
     padding: 0% !important;
+    margin-left: 10px;
 }
 .titolone {
-    font-size: 20pt;
+    font-size: 25pt;
     font-style: bold;
+    border-top: 2000px !important;
 }
 .titoletto {
-    font-size: 10pt;
+    font-size: 15pt;
     font-style: none;
     font-family:'Oxygen', sans-serif;
     color: #000000 !important;
+    float: left;
+}
+.info {
+    top: 10px;
+}
+.fatona {
+    width: 100%;
+    border-radius: 5px;
+    border-top: 1000px;
+}
+.novita {
+    background-color: #fbff00;
+    border-radius: 20px;
+    max-width: 800px !important;
+}
+.notizia {
+    padding: 20px !important;
+}
+.nopadding {
+    padding: 0% !important;
+    max-width: 40px !important;
+}
+
+.new {
+    text-align: center;
+    font-size: 20pt;
+}
+
+.testosotto {
+    text-align: center;
+    width: 50%;
+    float: left;
 }
