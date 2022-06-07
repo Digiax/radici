@@ -228,7 +228,7 @@ h2 {
     margin-top:20px;
 }
 .storia{
-    font-size: 12pt;
+    font-size: 15pt;
 }
 
 .foto img{
@@ -312,6 +312,7 @@ nav.shift ul li a {
     background-color: white;
     border-radius: 20px;
     margin-top: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .newses {
     border-radius: 20px;
@@ -378,4 +379,7 @@ nav.shift ul li a {
     text-align: center;
     width: 50%;
     float: left;
+}
+a {
+    color: rgb(255, 136, 0) !important;
 }
