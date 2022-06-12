@@ -110,16 +110,11 @@ nav a{
 .dropdown-menu {
     padding: 0% !important;
 }
-#italia {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-}
 .mappa {
     height: auto;
     width: auto;
     border: #000000;
+    margin-right: 150px !important;
 }
 .clicca {
     text-align: center !important;
@@ -384,7 +379,12 @@ a {
     color: #ff8800  !important;
 }
 #murubutu {
-    margin-top: 150px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.schedartista {
+    margin-top: 160px !important;
 }
 .piede {
     width: 100% !important;
@@ -466,4 +466,18 @@ figcaption {
 
 .g {
     color: #ffff00;
+}
+
+#maglietta {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+#img7 {
+    border-radius: 8px;
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    float: center;
 }
