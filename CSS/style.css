@@ -282,7 +282,7 @@ nav.shift ul li a:hover:after {
     float: right;
     border-top-width: 50px !important;
 }
-.salame {
+.comm1 {
     margin-top: 150px !important;
 }
 .song {
@@ -329,14 +329,15 @@ nav.shift ul li a:hover:after {
     margin-left: 10px;
 }
 .titolone {
-    font-size: 25pt;
+    font-size: 22pt;
     font-style: bold;
     border-top: 2000px !important;
     text-align: center;
+    font-family: 'Anton', sans-serif !important;
 }
 .titoletto {
-    font-size: 15pt;
-    font-family:'Oxygen', sans-serif;
+    font-size: 18pt;
+    font-family:'Oswald', sans-serif;
     color: #000000 !important;
     float: left;
 }
@@ -372,7 +373,7 @@ nav.shift ul li a:hover:after {
     float: left;
 }
 a {
-    color: #ff8800  !important;
+    color: #ff5100  !important;
 }
 #murubutu {
     margin-top: 50px;
@@ -489,4 +490,8 @@ figcaption {
 
 #artistsmarche {
     padding-top: 60px !important;
+}
+
+{
+    
 }
