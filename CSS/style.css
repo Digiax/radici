@@ -184,7 +184,7 @@ h2 {
     color: rgb(255, 255, 0) !important;
     font-family: 'Oxygen', sans-serif;
     text-align: center !important;
-    font-size: 50px !important;
+    font-size: 15pt !important;
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
@@ -192,10 +192,6 @@ h2 {
 .artists a{
     text-align: center;
     color: rgb(255, 255, 0) !important;
-    top: 30px ;
-    font-size: 20px;
-    position: relative;
-    display: inline;
 }
 #albumsa {
     display: inline;
@@ -480,4 +476,17 @@ figcaption {
     margin-right: auto;
     margin-left: auto;
     float: center;
+}
+
+#lazio {
+    margin-top: 0%;
+    height: 50px;
+}
+
+#fabri {
+    margin-top: 100px;
+}
+
+#artistsmarche {
+    padding-top: 60px !important;
 }
