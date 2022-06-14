@@ -492,6 +492,10 @@ figcaption {
     padding-top: 60px !important;
 }
 
-{
-    
+#mistamessaggio {
+    width: 60%;
+}
+
+figcaption {
+    font-size: 1rem;
 }
