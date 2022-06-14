@@ -499,3 +499,13 @@ figcaption {
 figcaption {
     font-size: 1rem;
 }
+
+.jova {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.stats {
+    width: 100% ;
+}
